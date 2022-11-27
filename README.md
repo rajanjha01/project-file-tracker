@@ -93,7 +93,7 @@ terraform
         ```
 		aws --endpoint-url http://localhost:4566 s3 cp README.md s3://test-bucket/
 		```
-            	<img width="689" alt="image" src="https://user-images.githubusercontent.com/82893856/204120778-78b4fd38-bea4-49b9-95c6-f426c1e8c83b.png">
+        <img width="689" alt="image" src="https://user-images.githubusercontent.com/82893856/204120778-78b4fd38-bea4-49b9-95c6-f426c1e8c83b.png">
 		
 
 	   ## This should create an entry in the backend database
@@ -102,9 +102,9 @@ terraform
 		aws --endpoint-url http://localhost:4566 dynamodb scan --table-name Files
 		```
 		🤺 🍺🍺 $aws --endpoint-url http://localhost:4566 dynamodb scan --table-name Files
- 		<img width="713" alt="image" src="https://user-images.githubusercontent.com/82893856/204120790-8dc161d7-bb0d-43de-825e-d513df90ba6e.png">
+       <img width="713" alt="image" src="https://user-images.githubusercontent.com/82893856/204120790-8dc161d7-bb0d-43de-825e-d513df90ba6e.png">
 
-                <img width="785" alt="image" src="https://user-images.githubusercontent.com/82893856/204120801-25733557-0549-46ff-b417-a64310ab3cbd.png">
+       <img width="785" alt="image" src="https://user-images.githubusercontent.com/82893856/204120801-25733557-0549-46ff-b417-a64310ab3cbd.png">
 
       
 
