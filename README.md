@@ -45,7 +45,7 @@ FileTracker is hosted on AWS and consumes below AWS resources –
 |
 terraform
 ├── src                        # Lambda source code
-|   ├── src/lambda_handlers    # Lambda source code with dependencies
+|   ├── src/lambda/lambda_function    # Lambda source code with dependencies
 ...
 (terraform files)             # Terraform config to deploy IAM role, Lambda function, s3 and DynamoDB backend db. 
 ...             
