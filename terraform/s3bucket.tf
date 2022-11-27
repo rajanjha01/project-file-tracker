@@ -34,7 +34,7 @@ resource "aws_lambda_permission" "allow_bucket" {
   principal     = "s3.amazonaws.com"
   source_arn    = aws_s3_bucket.filetracker-s3.arn
 }
- 
+
 ## s3 trigger for object creation
 
 resource "aws_s3_bucket_notification" "upload" {

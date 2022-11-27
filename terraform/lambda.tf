@@ -11,7 +11,7 @@ resource "aws_lambda_function" "filetracker" {
 
   environment {
     variables = {
-      DBTable    = var.dynamodb_table_name
+      DBTable = var.dynamodb_table_name
     }
   }
 }

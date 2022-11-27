@@ -20,7 +20,7 @@ resource "aws_iam_role" "filetracker-iam-role" {
 
 # A simple IAM policy document
 data "aws_iam_policy_document" "filetracker_iam_policy_doc" {
-    statement {
+  statement {
     sid    = ""
     effect = "Allow"
     resources = [
