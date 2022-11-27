@@ -88,17 +88,13 @@ terraform
 		export AWS_REGION=eu-central-1
     	```
 
-       ## Upload file to s3 bucket
+       # Upload file to s3 bucket
 
        
 	$ aws --endpoint-url http://localhost:4566 s3 cp README.md s3://test-bucket/
 		
-		<img width="688" alt="image" src="https://user-images.githubusercontent.com/82893856/204120837-4c0cc8c2-564b-43c0-8beb-c13b5f793abe.png">
-
-		
 
 	This should create an entry in the backend database
-
 		
 	$ aws --endpoint-url http://localhost:4566 dynamodb scan --table-name Files
 		
