@@ -60,6 +60,48 @@ terraform
     1. Configure AWS localstack on your local system.
     2. Terraform (> v1.0.11 or higher). 
 
+ * # Terraform Setup
+
+    # Local backend 
+
+    This project has been setup with local backend. 
+
+    # Application deployment
+
+    * We are deploying the s3 bucket, iam role, lambda function and dynamodb in eu-central-1 region.
+      Lambda zip has the lib dependencies in node_modules. 
+
+    Steps to deploy - 
+      * Clone the repo on your local system and ```cd project-file-tracker/terraform```
+      * setup backend.tf with local.
+      * setup localstack as aws providers. 
+      * Create variables in ```variables.tf``` and put all the values in ```terraform.tfvars```
+      * Run ```terraform init``` ```terraform plan``` and ```terraform apply```. 
+      * Open another terminal.
+
+      Configure AWS  - 
+
+      ## Authentication
+		```
+		export AWS_ACCESS_KEY_ID=foobar
+		export AWS_SECRET_ACCESS_KEY=foobar
+		export AWS_REGION=eu-central-1
+    	```
+
+       ## Upload file to s3 bucket
+
+        ```
+		aws --endpoint-url http://localhost:4566 s3 cp README.md s3://test-bucket/
+		```
+
+	   ## This should create an entry in the backend database
+
+		```
+		aws --endpoint-url http://localhost:4566 dynamodb scan --table-name Files
+		```
+
+      
+
 
 
 
