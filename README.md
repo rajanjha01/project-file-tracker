@@ -89,6 +89,7 @@ terraform
     	```
 
       Upload file to s3 bucket - 
+<img width="693" alt="image" src="https://user-images.githubusercontent.com/82893856/204120914-19ee7253-3a35-4a30-83e7-234689d0eaef.png">
 
        
 	$ aws --endpoint-url http://localhost:4566 s3 cp README.md s3://test-bucket/
