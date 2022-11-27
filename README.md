@@ -97,13 +97,11 @@ terraform
 
 		
 
-	   ## This should create an entry in the backend database
+	This should create an entry in the backend database
 
 		
-		aws --endpoint-url http://localhost:4566 dynamodb scan --table-name Files
+	$ aws --endpoint-url http://localhost:4566 dynamodb scan --table-name Files
 		
-		🤺 🍺🍺 $aws --endpoint-url http://localhost:4566 dynamodb scan --table-name Files
-
 
       
 
