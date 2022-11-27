@@ -36,6 +36,7 @@ FileTracker is hosted on AWS and consumes below AWS resources –
 |Stepfunction that writes to the DynamoDb table             | A js based Lambda function gets triggered after every s3 upload   |
 
 # 3. Application architecture
+<img width="684" alt="image" src="https://user-images.githubusercontent.com/82893856/204120036-0556d4ee-934f-4d25-9068-73d04b3e5f61.png">
 
 # 4. Folder structure
 
