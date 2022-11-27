@@ -50,7 +50,15 @@ terraform
 ...             
 └── README.md
 
+```
+
 # 5. Deployment
+
+* # Prerequisite 
+
+    1. Configure AWS localstack on your local system.
+    2. Terraform (> v1.0.11 or higher). 
+
 
 
 
