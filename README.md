@@ -88,7 +88,7 @@ terraform
 		export AWS_REGION=eu-central-1
     	```
 
-       # Upload file to s3 bucket
+      Upload file to s3 bucket - 
 
        
 	$ aws --endpoint-url http://localhost:4566 s3 cp README.md s3://test-bucket/
