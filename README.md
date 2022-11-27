@@ -94,10 +94,13 @@ terraform
        
 	$ aws --endpoint-url http://localhost:4566 s3 cp README.md s3://test-bucket/
 		
+<img width="810" alt="image" src="https://user-images.githubusercontent.com/82893856/204120925-a3a5f5a2-1a30-4d68-88e3-95eadc04000d.png">
+
 
 	This should create an entry in the backend database
 		
-	$ aws --endpoint-url http://localhost:4566 dynamodb scan --table-name Files
+<img width="905" alt="image" src="https://user-images.githubusercontent.com/82893856/204120939-563b8083-0970-44fb-8af0-3280c9cceceb.png">
+
 		
 
       
